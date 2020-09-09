@@ -12,7 +12,7 @@ go_library(
         "//:protoc-gen-doc",
         "//extensions/google_api_http",
         "//extensions/lyft_validate",
-        "//extensions/validator_field",
+        #"//extensions/validator_field",
         "@com_github_pseudomuto_protokit//:go_default_library",
     ],
 )
